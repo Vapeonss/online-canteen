@@ -1,55 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Canteen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Canteen</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
-<script defer src="./bunlde.js"></script>
 <body>
-    <h1>Online Canteen</h1>
-    <body>
-       
-            </header>
-         
-        <section id="showcase">
-            <div class="container">
-                <h1>NDRVMCC ALUMNI TRACER</h1>
-                <p>Welcome to our website! please enjoy and have a nice day!</p>
-            </div>
-        </section>
-        
-        </section>
-        
-            <section id="boxes">
-            <div class="container">
-                <div class="box">
-                <img src="./img/images.png" alt="">
-                    <h3>Online Transaction</h3>
-                     <p>Request form to our Website</p>
-                </div>
-        
-                <div class="box">
-                <img src="./img/alumni.png" alt="">
-                    <h3>Track Alumni and Students</h3>
-                     <p>Allow to view lists </p>
-                </div>
-        
-                <div class="box">
-                <img src="./img/secure.png " alt="">
-                    <h3>Secure Data</h3>
-                     <p>We secure all the data of Alumni and Students of the NDRVMCC</p>
-                </div>
-        </section>
-        
-        <footer>
-            <p>
-                NDRVMCC Web Design, Copyright &copy; 2022
-            </p>
-        </footer>
-        
-        </body>
-        
-        </head>
-        </html>
+	<!--header--->
+	<header>
+		<a href="#" class="logo">Online Canteen</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#package">Categories</a></li>
+			<li><a href="#destination">Menu list</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+            
+		</ul>
+		<img src="img/moon.png" id="icon">
+	</header>
+
+	<!--Home section--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>NDRVMCC<br></h1>
+			<p></p>
+			<a href="#" class="home-btn">Let's go now</a>
+		</div>
+	</section>
+
+	<!--container--->
+	<section class="container">
+		<div class="text">
+			<h2>Start Ordering Now! <br> with lots of Services!</h2>
+		</div>
+
+		<div class="row-items">
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/order.jpg">
+				</div>
+				<h4>Order your food Online!</h4>
+				<p>order now!</p>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/g.png">
+				</div>
+				<h4>Cash less</h4>
+				<p>pay thru gcash!</p>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/h.png">
+				</div>
+				<h4>Serve Healthy Foods</h4>
+				<p>we serve healthy foods for all!</p>
+			</div>
+
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/free.png">
+				</div>
+				<h4>Free Delivery</h4>
+				<p>we deliver order for free inside the school only!</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Package section--->
+	<section class="package" id="package">
+		<div class="title">
+			<h2>Our<br>Categories</h2>
+		</div>
+
+		<div class="package-content">
+			<div class="box">
+				<div class="thum">
+					<img src="img/ch.jpg">
+				
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>DESSERTS</h4>
+						<p></p>
+					</div>
+					<div class="stars">
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="img/yum.png">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>COMBO MEALS</h4>
+						<p></p>
+					</div>
+					<div class="stars">
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="thum">
+					<img src="img/drinks.jpg">
+					
+				</div>
+
+				<div class="dest-content">
+					<div class="location">
+						<h4>DRINKS</h4>
+						<p></p>
+					</div>
+					<div class="stars">
+						
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!--destination section--->
+	<section class="destination" id="destination">
+		<div class="title">
+			<h2>Menu List</h2>
+		</div>
+
+		<div class="destination-content">
+			<div class="col-content">
+				<img src="img/fried.jpg">
+				<h5>Fried Rice</h5>
+				<p></p>
+				<button >Add to Cart</button>
+			</div>
+
+			<div class="col-content">
+				<img src="img/hotdog.jpg">
+				<h5>Hotdog bread</h5>
+				<button >Add to Cart</button>
+			</div>
+
+			<div class="col-content">
+				<img src="img/adobo.jpg">
+				
+				<h5>Adobo with Rice</h5>
+				<button >Add to Cart</button>
+			</div>
+
+			<div class="col-content">
+				<img src="img/coke.jpg">
+				<h5>Coke Mismo</h5>
+				<button >Add to Cart</button>
+			</div>
+
+			<div class="col-content">
+				<img src="img/mineral.webp">
+				<h5>Mineral Water</h5>
+				<button >Add to Cart</button>
+			</div>
+
+			<div class="col-content">
+				<img src="img/dessert.jpg">
+				<h5>Cake</h5>
+				<button >Add to Cart</button>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Newsletter--->
+	<section class="newsletter">
+		<div class="news-text">
+			<h2>Newsletter</h2>
+			<p>Subscribe For more <br> </p>
+		</div>
+
+		<div class="send">
+			<form>
+				<input type="email" placeholder="Write Your Email" required>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</section>
+
+	<!--footer--->
+	<section id="contact">
+		<div class="footer">
+			<div class="main">
+				<div class="list">
+					<h4>School</h4>
+					<ul>
+						<li><a href="#">Notre Dame-RVM College of Cotabato</a></li>
+						
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Support</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Food Sevices</a></li>
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Contact Info</h4>
+					<ul>
+						<li><a href="#">Sinsuat Avenue.</a></li>
+						<li><a href="#">Cotabato City</a></li>
+						<li><a href="#">09123456789</a></li>
+						<li><a href="#">uwu@gmail.com</a></li>
+						
+					</ul>
+				</div>
+
+				<div class="list">
+					<h4>Connect</h4>
+					<div class="social">
+						<a href="#"><i class='bx bxl-facebook' ></i></a>
+						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="#"><i class='bx bxl-twitter' ></i></a>
+						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-text">
+			<p>Copyright ©2022 All rights reserved | Made with by Fariz Kabuntalan</p>
+		</div>
+	</section>
+
+	<!--link to js--->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script>
+
+		var icon = document.getElementById("icon");
+		icon.onclick = function(){
+		  document.body.classList.toggle("dark-theme");
+		  if(document.body.classList.contains("dark-theme")){
+    icon.src = "img/suns.png";
+  }else{
+    icon.src = "img/moon.png"
+		}
+	}
+		
+		  </script>
+</body>
+</html>
